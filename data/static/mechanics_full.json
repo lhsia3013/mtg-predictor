@@ -1,0 +1,142 @@
+[
+  {
+    "mechanic": "Flying",
+    "type": "keyword",
+    "rules_text": "This creature can't be blocked except by creatures with flying or reach.",
+    "category": "evasion",
+    "regex": "\\bflying\\b"
+  },
+  {
+    "mechanic": "Trample",
+    "type": "keyword",
+    "rules_text": "Excess damage is dealt to defending player or planeswalker.",
+    "category": "combat damage",
+    "regex": "\\btrample\\b"
+  },
+  {
+    "mechanic": "Haste",
+    "type": "keyword",
+    "rules_text": "This creature can attack and tap as soon as it comes under your control.",
+    "category": "speed",
+    "regex": "\\bhaste\\b"
+  },
+  {
+    "mechanic": "Cycling",
+    "type": "keyword action",
+    "rules_text": "Pay cost, discard to draw a card.",
+    "category": "card draw",
+    "regex": "\\bcycling\\b"
+  },
+  {
+    "mechanic": "Scry",
+    "type": "keyword action",
+    "rules_text": "Look at top N cards of your library.",
+    "category": "card filtering",
+    "regex": "\\bscry\\b"
+  },
+  {
+    "mechanic": "Cascade",
+    "type": "keyword",
+    "rules_text": "Exile until you hit a cheaper spell and cast it for free.",
+    "category": "card advantage",
+    "regex": "\\bcascade\\b"
+  },
+  {
+    "mechanic": "Landfall",
+    "type": "ability word",
+    "rules_text": "Triggers when a land enters the battlefield under your control.",
+    "category": "land synergy",
+    "regex": "\\blandfall\\b"
+  },
+  {
+    "mechanic": "Affinity",
+    "type": "keyword",
+    "rules_text": "This spell costs less to cast for each [type] you control.",
+    "category": "cost reduction",
+    "regex": "\\baffinity for\\b"
+  },
+  {
+    "mechanic": "Modular",
+    "type": "keyword",
+    "rules_text": "Comes into play with +1/+1 counters and transfers them on death.",
+    "category": "creature scaling",
+    "regex": "\\bmodular\\b"
+  },
+  {
+    "mechanic": "Proliferate",
+    "type": "keyword action",
+    "rules_text": "Choose any number of permanents or players and give each another counter of each kind.",
+    "category": "counter manipulation",
+    "regex": "\\bproliferate\\b"
+  },
+  {
+    "mechanic": "Ninjutsu",
+    "type": "keyword",
+    "rules_text": "Swap an unblocked attacker with this creature from your hand.",
+    "category": "combat trick",
+    "regex": "\\bninjutsu\\b"
+  },
+  {
+    "mechanic": "Unearth",
+    "type": "keyword",
+    "rules_text": "Return to battlefield with haste, exile at end of turn.",
+    "category": "graveyard recursion",
+    "regex": "\\bunearth\\b"
+  },
+  {
+    "mechanic": "Exploit",
+    "type": "keyword",
+    "rules_text": "When this creature enters, you may sacrifice a creature to trigger effects.",
+    "category": "sacrifice synergy",
+    "regex": "\\bexploit\\b"
+  },
+  {
+    "mechanic": "Delve",
+    "type": "keyword",
+    "rules_text": "Exile cards from your graveyard to reduce casting cost.",
+    "category": "cost reduction",
+    "regex": "\\bdelve\\b"
+  },
+  {
+    "mechanic": "Flashback",
+    "type": "keyword",
+    "rules_text": "Cast this card from your graveyard for its flashback cost, then exile it.",
+    "category": "graveyard recursion",
+    "regex": "\\bflashback\\b"
+  },
+  {
+    "mechanic": "Foretell",
+    "type": "keyword",
+    "rules_text": "You may pay 2 to exile it face down and cast later for a different cost.",
+    "category": "tempo",
+    "regex": "\\bforetell\\b"
+  },
+  {
+    "mechanic": "Jump-start",
+    "type": "keyword",
+    "rules_text": "Cast it from graveyard by discarding a card, then exile it.",
+    "category": "graveyard recursion",
+    "regex": "\\bjump-start\\b"
+  },
+  {
+    "mechanic": "Flash",
+    "type": "keyword",
+    "rules_text": "You may cast this spell any time you could cast an instant.",
+    "category": "speed",
+    "regex": "\\bflash\\b"
+  },
+  {
+    "mechanic": "Dredge",
+    "type": "keyword",
+    "rules_text": "If you would draw a card, you may instead return this from your graveyard by milling cards.",
+    "category": "graveyard recursion",
+    "regex": "\\bdredge\\b"
+  },
+  {
+    "mechanic": "Kicker",
+    "type": "keyword",
+    "rules_text": "You may pay an additional cost for a bonus effect.",
+    "category": "modal scaling",
+    "regex": "\\bkicker\\b"
+  }
+]
