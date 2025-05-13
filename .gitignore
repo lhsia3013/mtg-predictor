@@ -1,0 +1,23 @@
+# Local environment
+venv/
+.env
+
+# Jupyter notebook cache
+.ipynb_checkpoints/
+
+# Data (raw and processed)
+data/raw/
+data/processed/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs or temp files
+*.log
+*.tmp
