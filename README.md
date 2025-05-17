@@ -66,7 +66,12 @@ jupyter notebook
   → Output: `data/processed/enriched_cards.csv`  
 - ✅ Embedded `oracle_text` using Sentence Transformers (`all-MiniLM-L6-v2`)  
   → Output: `data/processed/text_embeddings.npy`  
-- 🔜 Next: Visualize vector space with UMAP, build similarity search, and train mechanic predictor
+- ✅ Visualized oracle text embeddings with UMAP, clustered by metadata (color, type, rarity, CMC, etc.)
+  → Output: `visualizations/umap_by_card_type, *by_cmc, *by_color, *by_color_identity, *by_mechanic_count, *by_rarity, *by_set`
+
+- 🔜 Next: Expand `mechanics_full.json` to full mechanic set (~300 entries)  
+- 🔜 Next: Train initial multi-label mechanic predictor from oracle text embeddings  
+- 🔜 Next: Build similarity search tool using vector space + metadata
 
 ---
 
@@ -104,7 +109,14 @@ chmod +x .git/hooks/pre-commit
 
 ```bash
 pip install ipywidgets
-jupyter nbextension enable --py widgetsnbextension --sys-prefix
+```
+
+### UMAP Visualization Requirements
+
+To run `3_umap_visualization.ipynb`, install:
+
+```bash
+pip install umap-learn seaborn
 ```
 
 ### Notes on Running Notebooks
