@@ -45,7 +45,7 @@ mtg-predictor/
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install pandas requests tqdm notebook sentence-transformers
+pip install pandas requests tqdm notebook sentence-transformers beautifulsoup4 lxmlpip install pandas requests tqdm notebook sentence-transformers
 ```
 
 ### Launch Jupyter
