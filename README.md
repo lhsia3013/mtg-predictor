@@ -45,7 +45,7 @@ mtg-predictor/
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install pandas requests tqdm notebook sentence-transformers
+pip install pandas requests tqdm notebook sentence-transformers pymupdf
 ```
 
 ### Launch Jupyter
@@ -57,8 +57,9 @@ jupyter notebook
 ---
 
 ## ✅ Current Progress
-
+# Initial Setup and Dummy Mechanics List
 - ✅ Downloaded full card dataset from Scryfall  
+→ Output: `data/processed/scryfall_cards.csv`  
 - ✅ Built `mechanics_full.json` with 20+ structured mechanics (type, rules, regex, category)  
 - ✅ Parsed `oracle_text` using regex to extract mechanics  
   → Output: `data/processed/parsed_cards.csv`  
@@ -66,12 +67,19 @@ jupyter notebook
   → Output: `data/processed/enriched_cards.csv`  
 - ✅ Embedded `oracle_text` using Sentence Transformers (`all-MiniLM-L6-v2`)  
   → Output: `data/processed/text_embeddings.npy`  
-- ✅ Visualized oracle text embeddings with UMAP, clustered by metadata (color, type, rarity, CMC, etc.)
-  → Output: `visualizations/umap_by_card_type, *by_cmc, *by_color, *by_color_identity, *by_mechanic_count, *by_rarity, *by_set`
+- ✅ Visualized oracle text embeddings with UMAP, clustered by metadata (color, type, rarity, CMC, etc.)  
+  → Output: `visualizations/umap_by_card_type, *by_cmc, *by_color, *by_color_identity, *by_mechanic_count, *by_rarity, *by_set`  
 
-- 🔜 Next: Expand `mechanics_full.json` to full mechanic set (~300 entries)  
+# Comprehensive Mechanic Rules Text
+- ✅ Downloaded full card dataset with all card meta data from Scryfall  
+→ Output: `data/processed/scryfall_full_cards.json`  
+- ✅ Extracted canonical keyword ability definitions from `MagicCompRules.pdf`  
+  → Output: `data/static/keyword_rules_structured_clean.json`  
+- ✅ Merged Scryfall usage data with canonical rules to create a comprehensive `mechanics_full.json`  
+  → Output: `data/static/mechanics_full.json`  
+
 - 🔜 Next: Train initial multi-label mechanic predictor from oracle text embeddings  
-- 🔜 Next: Build similarity search tool using vector space + metadata
+- 🔜 Next: Build similarity search tool using vector space + metadata  
 
 ---
 

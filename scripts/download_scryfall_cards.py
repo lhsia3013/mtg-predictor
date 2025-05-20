@@ -1,32 +1,23 @@
 import requests
-import pandas as pd
+import json
+from pathlib import Path
 
-print("Downloading Scryfall bulk data...")
-url = "https://api.scryfall.com/bulk-data"
-bulk_list = requests.get(url).json()["data"]
-default_cards_url = next(item for item in bulk_list if item["type"] == "default_cards")["download_uri"]
+# Get the bulk data index
+bulk_info = requests.get("https://api.scryfall.com/bulk-data").json()
 
-print("Fetching full card list...")
-cards = requests.get(default_cards_url).json()
+# Find the default_cards entry
+default_entry = next(item for item in bulk_info["data"] if item["type"] == "default_cards")
+download_url = default_entry["download_uri"]
 
-print(f"Total cards downloaded: {len(cards)}")
+print(f"📥 Downloading from {download_url}")
+response = requests.get(download_url)
 
-filtered = []
-for card in cards:
-    filtered.append({
-        "name": card.get("name"),
-        "mana_cost": card.get("mana_cost"),
-        "cmc": card.get("cmc"),
-        "type_line": card.get("type_line"),
-        "oracle_text": card.get("oracle_text"),
-        "colors": card.get("colors"),
-        "set": card.get("set_name"),
-        "rarity": card.get("rarity"),
-        "released_at": card.get("released_at"),
-        "artist": card.get("artist"),
-        "image_url": card.get("image_uris", {}).get("normal", None)
-    })
+# Save full card data (list of dicts)
+raw_cards = response.json()
+output_path = Path("data/raw/scryfall_full_cards.json")
+output_path.parent.mkdir(parents=True, exist_ok=True)
 
-df = pd.DataFrame(filtered)
-df.to_csv("scryfall_cards.csv", index=False)
-print("Saved to scryfall_cards.csv")
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(raw_cards, f, indent=2)
+
+print(f"✅ Saved full Scryfall card data to {output_path}")
