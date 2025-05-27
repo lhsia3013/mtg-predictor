@@ -9,7 +9,7 @@ DATA_RAW = ROOT / "data" / "raw"
 DATA_STATIC = ROOT / "data" / "static"
 
 pdf_path = DATA_RAW / "MagicCompRules 20250404.pdf"
-output_path = DATA_STATIC / "keyword_rules_structured_clean.json"
+output_path = DATA_STATIC / "keyword_ability_rules_structured_clean.json"
 
 doc = fitz.open(pdf_path)
 lines = []
@@ -82,4 +82,4 @@ output_path.parent.mkdir(parents=True, exist_ok=True)
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(list(entries.values()), f, indent=2, ensure_ascii=False)
 
-print(f"✅ Extracted and cleaned {len(entries)} keyword mechanics into: {output_path}")
+print(f"✅ Extracted and cleaned {len(entries)} keyword ability mechanics into: {output_path}")
