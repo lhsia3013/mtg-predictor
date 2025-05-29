@@ -158,9 +158,21 @@ chmod +x .git/hooks/pre-commit
 ### Scryfall Full Card Data
 Scryfall card list and full meta data
 
-Download with Python script: 
+Download with Python script:
+
 ```bash
 python3 download_scryfall_cards.py
+```
+
+### MTG Comprehensive Rules
+Used to extract canonical definitions for mechanics reference.
+
+Download manually from the official WOTC page:
+📄 https://magic.wizards.com/en/rules
+
+```bash
+File used: MagicCompRules 20250404.pdf
+Place in: data/raw/
 ```
 
 ### MTGJSON: Keywords.json
