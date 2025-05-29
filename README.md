@@ -1,44 +1,44 @@
-# MTG Card Predictor
+# 🧠 MTG Card Predictor
 
-An ML/CV research project to analyze and predict future Magic: The Gathering cards using historical card data, rules text, design patterns, and artwork.
-
----
-
-## Project Goals
-
-- Predict likely mechanics, themes, and card types for future sets  
-- Parse and model MTG rules text to classify or generate new cards  
-- Analyze trends in set design (color balance, power creep, mechanics cycles)  
-- Match or generate art aligned with card concept and theme  
-- Combine all components into a prototype predictive engine
+A machine learning and computer vision research project to generate future themed Magic: The Gathering cards using historical card data, structured rules text, design patterns, and artwork.
 
 ---
 
-## Project Structure
+## 🎯 Project Goals
+
+- Generate **mechanics**, **themes**, and **card types** for future sets  
+- Parse and model MTG **rules text** to classify or generate new cards  
+- Analyze trends in **set design** (color balance, power creep, mechanic cycles)  
+- Match or generate **artwork** aligned with card concepts  
+- Combine all components into a prototype **predictive engine**
+
+---
+
+## 🗂️ Project Structure
 
 ```plaintext
 mtg-predictor/
-├── data/                 
-│   ├── raw/              → Scryfall raw card data, MTGJSON Keywords List
-│   ├── processed/        → Parsed & enriched CSVs and embeddings
-│   └── static/           → mechanics_full.json
-├── notebooks/            → Jupyter notebooks for exploration
-├── scripts/              → Python utilities and future scraping tools
-├── models/               → Trained model files
-├── visualizations/       → Charts, UMAPs, similarity maps
-├── venv/                 → Local Python environment (excluded)
+├── data/
+│   ├── raw/              # Scryfall raw card data, MTGJSON keyword files
+│   ├── processed/        # Parsed & enriched CSVs and embeddings
+│   └── static/           # Structured rule-based mechanic definitions
+├── notebooks/            # Jupyter notebooks for parsing, modeling, visualization
+├── scripts/              # Python utilities and scraping tools
+├── models/               # Trained ML model files
+├── visualizations/       # UMAPs, charts, similarity maps
+├── venv/                 # Python virtual environment (excluded via .gitignore)
 └── README.md
 ```
 
 ---
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
-### Requirements
+### Prerequisites
 
 - Python 3.10+
-- pip
-- virtualenv (recommended)
+- `pip`
+- `virtualenv` (recommended)
 
 ### Installation
 
@@ -57,69 +57,82 @@ jupyter notebook
 ---
 
 ## ✅ Current Progress
-# Initial Setup and Dummy Mechanics List
-- ✅ Downloaded full card dataset from Scryfall  
-→ Output: `data/processed/scryfall_cards.csv`  
-- ✅ Built `mechanics_full.json` with 20+ structured mechanics (type, rules, regex, category)  
-- ✅ Parsed `oracle_text` using regex to extract mechanics  
-  → Output: `data/processed/parsed_cards.csv`  
-- ✅ Enriched parsed data with additional metadata (colors, cmc, type, rarity, etc.)  
-  → Output: `data/processed/enriched_cards.csv`  
-- ✅ Embedded `oracle_text` using Sentence Transformers (`all-MiniLM-L6-v2`)  
-  → Output: `data/processed/text_embeddings.npy`  
-- ✅ Visualized oracle text embeddings with UMAP, clustered by metadata (color, type, rarity, CMC, etc.)  
-  → Output: `visualizations/umap_by_card_type, *by_cmc, *by_color, *by_color_identity, *by_mechanic_count, *by_rarity, *by_set`  
 
-### Comprehensive Mechanic & Flavor Rules Extraction
-- ✅ Downloaded and cleaned full card dataset from Scryfall  
-  → Output: `data/raw/scryfall_full_cards.json`  
-- ✅ Parsed and structured canonical **keyword abilities** from `MagicCompRules.pdf`  
-  → Output: `data/static/keyword_ability_rules_structured_clean.json`  
-- ✅ Parsed and structured canonical **keyword actions** from `MagicCompRules.pdf`  
-  → Output: `data/static/keyword_action_rules_structured_clean.json`  
-- ✅ Extracted and filtered **ability word** examples from Scryfall cards  
-  → Output: `data/static/ability_words_card_level.json`  
-- ✅ Extracted and cleaned **flavor word** examples (stylized headers)  
-  → Output:  
-    ✔ `flavor_words_card_level_cleaned.json`  
-    ✔ `flavor_words_card_level_cleaned_sorted.json`  
-    ✖ `flavor_words_rejected.json` (logged exclusions for transparency)
-- ✅ Loaded **mechanic definitions** from MTGJSON’s `Keywords.json` and used to filter invalid matches in all extractions
+### 📌 Initial Setup & Embedding Pipeline
 
-### 🔜 Next Steps
-
-- ✅ Rebuild full **mechanic list** from:
-  - `keyword_ability_rules_structured_clean.json`
-  - `keyword_action_rules_structured_clean.json`
-  - `ability_words_card_level.json`  
-  → Output: `data/static/mechanics_full.json`
-
-- Refactor core notebooks for updated mechanic pipeline:  
-  → `0_parsing_mechanics.ipynb` — rebuild mechanic list  
-  → `1_feature_engineering.ipynb` — token features, span extraction  
-  → `2_text_embeddings.ipynb` — generate oracle text embeddings  
-  → `3_umap_visualization.ipynb` — project and explore embedding space
-
-- Train first **multi-label mechanic classifier** using oracle text embeddings  
-  → Predict keyword/mechanic tags per card
-
-- Build **semantic similarity search** with FAISS or cosine distance  
-  → Input: oracle text  
-  → Output: closest matching cards + mechanic tags
-
-- Begin conditioning **card generation** on theme + mechanic structure  
-  → Use extracted data to influence flavor word use, mechanic choice, etc.
+- ✅ Downloaded card dataset from Scryfall  
+  → `data/processed/scryfall_cards.csv`  
+- ✅ Built `mechanics_full.json` with 20+ structured mechanics  
+- ✅ Parsed `oracle_text` using regex  
+  → `data/processed/parsed_cards.csv`  
+- ✅ Enriched card data with metadata (color, CMC, type, rarity...)  
+  → `data/processed/enriched_cards.csv`  
+- ✅ Embedded `oracle_text` with `all-MiniLM-L6-v2`  
+  → `data/processed/text_embeddings.npy`  
+- ✅ Visualized embeddings with UMAP by metadata clusters  
+  → `visualizations/umap_by_*`
 
 ---
 
-## Git & Dev Notes
+### 📘 Rule-Based Mechanic & Flavor Word Extraction
+- ✅ Downloaded card dataset with full metadata from Scryfall  
+  → `data/processed/scryfall_full_cards.csv`  
+- ✅ Parsed canonical **keyword abilities** from `MagicCompRules.pdf`  
+  → `data/static/keyword_ability_rules_structured_clean.json`  
+- ✅ Parsed **keyword actions** from `MagicCompRules.pdf`  
+  → `data/static/keyword_action_rules_structured_clean.json`  
+- ✅ Loaded mechanic definitions from MTGJSON’s `Keywords.json`  
+  → `data/raw/Keywords.json`
+- ✅ Extracted **ability word** examples from Scryfall cards using Keywords.json  
+  → `data/static/ability_words_card_level.json` 
+  → `data/static/ability_words_card_level_sorted.json`   
+- ✅ Extracted and cleaned **flavor word** examples using Keywords.json  
+  →  
+    ✔ `flavor_words_card_level_cleaned.json`  
+    ✔ `flavor_words_card_level_cleaned_sorted.json`  
+    ✖ `flavor_words_rejected.json` (logged exclusions)  
 
-- `.gitignore` excludes:
-  - `venv/`
-  - `data/`
-  - `.ipynb_checkpoints/`
+---
 
-- Pre-commit hook is configured in `.git/hooks/pre-commit` to strip output cells from notebooks before commit:
+## 🔮 Next Steps
+
+- ✅ Rebuild **mechanic list** from:
+  - `keyword_ability_rules_structured_clean.json`
+  - `keyword_action_rules_structured_clean.json`
+  - `ability_words_card_level.json`  
+  → `data/static/mechanics_full.json`
+
+- Refactor core notebooks:
+  - `0_parsing_mechanics.ipynb` – regenerate mechanic list  
+  - `1_feature_engineering.ipynb` – token-level features and spans  
+  - `2_text_embeddings.ipynb` – embedding and export  
+  - `3_umap_visualization.ipynb` – dimensionality reduction and cluster maps
+
+- Train first **multi-label classifier**  
+  → Input: oracle text embedding  
+  → Output: predicted mechanics
+
+- Build **semantic search** with FAISS or cosine similarity  
+  → Input: oracle text  
+  → Output: most similar cards and associated tags
+
+- Start prototype **card generation**, conditioned on themes and mechanics  
+  → Output: flavor text, card template, and suggested mechanics
+
+---
+
+## 🛠️ Git & Dev Notes
+
+### Gitignore
+
+`.gitignore` excludes:
+- `venv/`
+- `data/`
+- `.ipynb_checkpoints/`
+
+### Pre-commit Hook (Strip Notebook Outputs)
+
+Create a `.git/hooks/pre-commit` file with the following:
 
 ```bash
 #!/bin/bash
@@ -132,7 +145,7 @@ for file in $STAGED_FILES; do
 done
 ```
 
-To activate the hook:
+Make it executable:
 
 ```bash
 chmod +x .git/hooks/pre-commit
@@ -142,37 +155,45 @@ chmod +x .git/hooks/pre-commit
 
 ## 📦 External Data Sources
 
+### Scryfall Full Card Data
+Scryfall card list and full meta data
+
+Download with Python script: 
+```bash
+python3 download_scryfall_cards.py
+```
+
 ### MTGJSON: Keywords.json
 
-This project uses mechanic definitions from [MTGJSON](https://mtgjson.com/), specifically the `Keywords.json` file.
+Used for structured mechanic definitions and filtering.
 
-To obtain it:
+Download with:
 
 ```bash
 curl -O https://mtgjson.com/api/v5/Keywords.json
-
+```
 
 ---
 
-## Optional Setup Enhancements
+## 🧪 Optional Enhancements
 
-### Enable tqdm Progress Bars in Jupyter
+### Enable `tqdm` in Jupyter
 
 ```bash
 pip install ipywidgets
 ```
 
-### UMAP Visualization Requirements
-
-To run `3_umap_visualization.ipynb`, install:
+### UMAP Visualization Dependencies
 
 ```bash
 pip install umap-learn seaborn
 ```
 
-### Notes on Running Notebooks
+---
 
-All notebooks are expected to be run from within the `notebooks/` folder.  
-If run from another path, you may need to adjust relative references to `../data/processed/`.
+## 📝 Notebook Execution Notes
+
+All notebooks are expected to be run from the `notebooks/` directory.  
+If run elsewhere, adjust relative paths (e.g. `../data/processed/`).
 
 ---
