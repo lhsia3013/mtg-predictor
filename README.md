@@ -19,7 +19,7 @@ An ML/CV research project to analyze and predict future Magic: The Gathering car
 ```plaintext
 mtg-predictor/
 ├── data/                 
-│   ├── raw/              → Scryfall raw card data
+│   ├── raw/              → Scryfall raw card data, MTGJSON Keywords List
 │   ├── processed/        → Parsed & enriched CSVs and embeddings
 │   └── static/           → mechanics_full.json
 ├── notebooks/            → Jupyter notebooks for exploration
@@ -70,16 +70,45 @@ jupyter notebook
 - ✅ Visualized oracle text embeddings with UMAP, clustered by metadata (color, type, rarity, CMC, etc.)  
   → Output: `visualizations/umap_by_card_type, *by_cmc, *by_color, *by_color_identity, *by_mechanic_count, *by_rarity, *by_set`  
 
-# Comprehensive Mechanic Rules Text
-- ✅ Downloaded full card dataset with all card meta data from Scryfall  
-→ Output: `data/processed/scryfall_full_cards.json`  
-- ✅ Extracted canonical keyword ability definitions from `MagicCompRules.pdf`  
-  → Output: `data/static/keyword_rules_structured_clean.json`  
-- ✅ Merged Scryfall usage data with canonical rules to create a comprehensive `mechanics_full.json`  
-  → Output: `data/static/mechanics_full.json`  
+### Comprehensive Mechanic & Flavor Rules Extraction
+- ✅ Downloaded and cleaned full card dataset from Scryfall  
+  → Output: `data/raw/scryfall_full_cards.json`  
+- ✅ Parsed and structured canonical **keyword abilities** from `MagicCompRules.pdf`  
+  → Output: `data/static/keyword_ability_rules_structured_clean.json`  
+- ✅ Parsed and structured canonical **keyword actions** from `MagicCompRules.pdf`  
+  → Output: `data/static/keyword_action_rules_structured_clean.json`  
+- ✅ Extracted and filtered **ability word** examples from Scryfall cards  
+  → Output: `data/static/ability_words_card_level.json`  
+- ✅ Extracted and cleaned **flavor word** examples (stylized headers)  
+  → Output:  
+    ✔ `flavor_words_card_level_cleaned.json`  
+    ✔ `flavor_words_card_level_cleaned_sorted.json`  
+    ✖ `flavor_words_rejected.json` (logged exclusions for transparency)
+- ✅ Loaded **mechanic definitions** from MTGJSON’s `Keywords.json` and used to filter invalid matches in all extractions
 
-- 🔜 Next: Train initial multi-label mechanic predictor from oracle text embeddings  
-- 🔜 Next: Build similarity search tool using vector space + metadata  
+### 🔜 Next Steps
+
+- ✅ Rebuild full **mechanic list** from:
+  - `keyword_ability_rules_structured_clean.json`
+  - `keyword_action_rules_structured_clean.json`
+  - `ability_words_card_level.json`  
+  → Output: `data/static/mechanics_full.json`
+
+- Refactor core notebooks for updated mechanic pipeline:  
+  → `0_parsing_mechanics.ipynb` — rebuild mechanic list  
+  → `1_feature_engineering.ipynb` — token features, span extraction  
+  → `2_text_embeddings.ipynb` — generate oracle text embeddings  
+  → `3_umap_visualization.ipynb` — project and explore embedding space
+
+- Train first **multi-label mechanic classifier** using oracle text embeddings  
+  → Predict keyword/mechanic tags per card
+
+- Build **semantic similarity search** with FAISS or cosine distance  
+  → Input: oracle text  
+  → Output: closest matching cards + mechanic tags
+
+- Begin conditioning **card generation** on theme + mechanic structure  
+  → Use extracted data to influence flavor word use, mechanic choice, etc.
 
 ---
 
@@ -108,6 +137,20 @@ To activate the hook:
 ```bash
 chmod +x .git/hooks/pre-commit
 ```
+
+---
+
+## 📦 External Data Sources
+
+### MTGJSON: Keywords.json
+
+This project uses mechanic definitions from [MTGJSON](https://mtgjson.com/), specifically the `Keywords.json` file.
+
+To obtain it:
+
+```bash
+curl -O https://mtgjson.com/api/v5/Keywords.json
+
 
 ---
 
