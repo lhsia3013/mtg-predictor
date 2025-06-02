@@ -1,5 +1,6 @@
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 # === Paths ===
@@ -12,6 +13,7 @@ def load_json(p):
         return json.load(f)
 
 def normalize(text):
+    text = unicodedata.normalize("NFKC", text)
     return text.lower().replace("\n", " ").replace("—", "-").strip()
 
 # === Load inputs ===
@@ -32,6 +34,7 @@ for card in scryfall:
         for face in card["card_faces"]:
             if face.get("oracle_text"):
                 oracle_index.append({"name": face["name"], "oracle": face["oracle_text"]})
+
 oracle_blob = " ".join(normalize(c["oracle"]) for c in oracle_index)
 
 # === Manual match overrides ===
@@ -84,6 +87,7 @@ def add(entry, type_):
     rule = entry.get("code")
     definition = get_def(entry) or f"{name} is a {type_.lower()} in Magic: The Gathering."
     cards = get_card_matches(name)
+    cards = list(set(cards))  # dedupe cards
     all_mechanics.append({
         "name": name,
         "type": type_,
@@ -105,6 +109,7 @@ def add_words(source, key, label, desc):
         word = entry[key].strip().title()
         word_map.setdefault(word, []).append(entry["card_name"])
     for word, cards in word_map.items():
+        cards = list(set(cards))  # dedupe
         all_mechanics.append({
             "name": word,
             "type": label,
@@ -112,7 +117,7 @@ def add_words(source, key, label, desc):
             "definition": desc,
             "oracle_phrase_match": word.lower(),
             "card_count": len(cards),
-            "cards": list(set(cards))[:10]
+            "cards": cards[:10]
         })
 
 add_words(ability_words, "ability_word", "Ability Word",
@@ -126,6 +131,7 @@ for entry in glossary:
     definition = entry.get("definition(s)") or entry.get("definitions", "") or f"{name} is a glossary term."
     if re.search(rf"\b{re.escape(name.lower())}\b", oracle_blob):
         cards = get_card_matches(name)
+        cards = list(set(cards))
         all_mechanics.append({
             "name": name,
             "type": "Glossary Term",
@@ -155,7 +161,7 @@ for mech in all_mechanics:
            (priority[mech["type"]] == priority[existing["type"]] and len(mech["definition"]) > len(existing["definition"])):
             deduped[name] = mech
 
-# === Write output ===
+# === Output
 with open(STATIC / "ml_ready_mechanics.json", "w") as f:
     json.dump(list(deduped.values()), f, indent=2)
 
