@@ -74,38 +74,6 @@ jupyter notebook
 
 ---
 
-### 📘 Rule-Based Mechanic & Flavor Word Extraction
-- ✅ Downloaded card dataset with full metadata from Scryfall  
-  → `data/processed/scryfall_full_cards.csv`  
-- ✅ Parsed canonical **keyword abilities** from `MagicCompRules.pdf`  
-  → `data/static/keyword_ability_rules_structured_clean.json`  
-- ✅ Parsed **keyword actions** from `MagicCompRules.pdf`  
-  → `data/static/keyword_action_rules_structured_clean.json`  
-- ✅ Loaded mechanic definitions from MTGJSON’s `Keywords.json`  
-  → `data/raw/Keywords.json`
-- ✅ Extracted **ability word** examples from Scryfall cards using Keywords.json  
-  → `data/static/ability_words_card_level.json` 
-  → `data/static/ability_words_card_level_sorted.json`   
-- ✅ Extracted and cleaned **flavor word** examples using Keywords.json  
-  →  
-    ✔ `flavor_words_card_level_cleaned.json`  
-    ✔ `flavor_words_card_level_cleaned_sorted.json`  
-    ✖ `flavor_words_rejected.json` (logged exclusions)  
-
-- ✅ Applied manual fallbacks for hard-to-match mechanics  
-  → `data/static/scryfall_subset_patch.json`  
-- ✅ Generated final, deduplicated, bug-fixed mechanic list  
-  → `data/static/ml_ready_mechanics.json`  
-
-**🔧 Fixes applied**:
-- Regex whole-word matching (avoids “flashback” when matching “flash”)
-- Unicode-safe normalization
-- Deduplication of card lists per mechanic
-- Mechanic filtering by real oracle presence
-- Removal of `mechanic_card_matches.json` legacy file
-
----
-
 ### 🔁 Full Mechanics Extraction Pipeline
 
 This pipeline transforms Scryfall card data and the official Magic Comprehensive Rules into a machine-learning-ready list of mechanics, each tied to example cards, rule definitions, and mechanic types.
