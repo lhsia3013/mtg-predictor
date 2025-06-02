@@ -92,32 +92,42 @@ jupyter notebook
     ✔ `flavor_words_card_level_cleaned_sorted.json`  
     ✖ `flavor_words_rejected.json` (logged exclusions)  
 
+- ✅ Applied manual fallbacks for hard-to-match mechanics  
+  → `data/static/scryfall_subset_patch.json`  
+- ✅ Generated final, deduplicated, bug-fixed mechanic list  
+  → `data/static/ml_ready_mechanics.json`  
+
+**🔧 Fixes applied**:
+- Regex whole-word matching (avoids “flashback” when matching “flash”)
+- Unicode-safe normalization
+- Deduplication of card lists per mechanic
+- Mechanic filtering by real oracle presence
+- Removal of `mechanic_card_matches.json` legacy file
+
 ---
 
 ## 🔮 Next Steps
 
-- ✅ Rebuild **mechanic list** from:
-  - `keyword_ability_rules_structured_clean.json`
-  - `keyword_action_rules_structured_clean.json`
-  - `ability_words_card_level.json`  
-  → `data/static/mechanics_full.json`
+- 🧱 Refactor and re-run:
+  - `0_parsing_mechanics.ipynb` – now uses clean output
+  - `1_feature_engineering.ipynb` – spans and token match updates
+  - `2_text_embeddings.ipynb` – retrain with clean oracle text inputs
+  - `3_umap_visualization.ipynb` – regenerate UMAPs with mechanic overlays
 
-- Refactor core notebooks:
-  - `0_parsing_mechanics.ipynb` – regenerate mechanic list  
-  - `1_feature_engineering.ipynb` – token-level features and spans  
-  - `2_text_embeddings.ipynb` – embedding and export  
-  - `3_umap_visualization.ipynb` – dimensionality reduction and cluster maps
-
-- Train first **multi-label classifier**  
-  → Input: oracle text embedding  
+- 🧠 Train first **multi-label classifier**  
+  → Input: text embeddings  
   → Output: predicted mechanics
 
-- Build **semantic search** with FAISS or cosine similarity  
+- 🔎 Build **semantic mechanic search** with FAISS  
   → Input: oracle text  
-  → Output: most similar cards and associated tags
+  → Output: similar cards / tags
 
-- Start prototype **card generation**, conditioned on themes and mechanics  
-  → Output: flavor text, card template, and suggested mechanics
+- 🧪 Consider reprocessing **reminder text exclusions**  
+  → Separate embedded rules from "hints" and test impact
+
+- 🧙 Begin early **card generation prototype**  
+  → Condition on themes + predicted mechanics  
+  → Output: name, type, rules text, flavor
 
 ---
 
