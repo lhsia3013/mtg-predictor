@@ -106,6 +106,63 @@ jupyter notebook
 
 ---
 
+### 🔁 Full Mechanics Extraction Pipeline
+
+This pipeline transforms Scryfall card data and the official Magic Comprehensive Rules into a machine-learning-ready list of mechanics, each tied to example cards, rule definitions, and mechanic types.
+
+&nbsp;
+
+| Stage | Script | Purpose | Output |
+|-------|--------|---------|--------|
+| 🧱 Download | `download_scryfall_cards.py` | Downloads full Scryfall default_cards set | `scryfall_full_cards.json` |
+| ✂️ Trim | `download_trimmed_scryfall_cards.py` | Extracts only ML-relevant fields from raw Scryfall data | `scryfall_cards_trimmed_for_ml.json` |
+| 🧼 Deduplicate | `deduplicate_trimmed_scryfall_cards.py` | Deduplicates by oracle identity (keeps alt arts/flavor) | `scryfall_cards_deduplicated_for_ml.json` |
+
+---
+
+#### 📘 Rule Parsing
+
+&nbsp;
+
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `extract_clean_split_keyword_ability_rules.py` | Parses 702.* Keyword Abilities from CompRules PDF | `keyword_ability_rules_structured_clean.json` |
+| `extract_clean_split_keyword_action_rules.py` | Parses 701.* Keyword Actions | `keyword_action_rules_structured_clean.json` |
+| `extract_glossary_terms.py` | Extracts glossary terms and definitions | `glossary_terms_structured_clean.json` |
+
+---
+
+#### 🧠 Word Extraction
+
+&nbsp;
+
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `extract_ability_word_card_data.py` | Extracts italicized ability word lines from oracle text | `ability_words_card_level.json` |
+| `extract_flavor_word_card_data.py` | Extracts and filters flavor words | `flavor_words_card_level.json`, `flavor_words_rejected.json` |
+
+---
+
+#### 🐛 Manual Fallbacks for Under-Detected Mechanics
+
+&nbsp;
+
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `scryfall_mechanic_subset_bug.py` | Patches edge cases like "convert", "endure", etc. | `scryfall_subset_patch.json` |
+
+---
+
+#### 🧠 Final Mechanic Generation
+
+&nbsp;
+
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `generate_full_mechanics_list.py` | Combines all structured inputs into a clean ML dataset | `ml_ready_mechanics.json` |
+
+---
+
 ## 🔮 Next Steps
 
 - 🧱 Refactor and re-run:
