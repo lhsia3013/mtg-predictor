@@ -861,6 +861,13 @@
     "reject_reason": "Saga chapter numeral"
   },
   {
+    "card_name": "Phoenix, Warden of Fire",
+    "flavor_word": "III",
+    "full_line": "III — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Rising Flames — Phoenix deals 2 damage to each opponent.\nIII — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).\nFlying, lifelink",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Honeymoon Hearse",
     "flavor_word": "Tap two untapped creatures you control",
     "full_line": "Tap two untapped creatures you control: This Vehicle becomes an artifact creature until end of turn.",
@@ -2345,6 +2352,13 @@
     "reject_reason": "Starts with cost word"
   },
   {
+    "card_name": "Black Chocobo",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn.",
+    "oracle_text": "When this permanent transforms into Black Chocobo, search your library for a land card, put it onto the battlefield tapped, then shuffle.\nLandfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Eldrazi Ravager",
     "flavor_word": "Sacrifice two Eldrazi",
     "full_line": "Sacrifice two Eldrazi: Return this card from your graveyard to your hand.",
@@ -3500,6 +3514,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Sabotender",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+    "oracle_text": "Reach\nLandfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Zombie Infestation",
     "flavor_word": "Discard two cards",
     "full_line": "Discard two cards: Create a 2/2 black Zombie creature token.",
@@ -4008,6 +4029,13 @@
     "flavor_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. If that land is a Forest, put two +1/+1 counters on this creature instead.",
     "oracle_text": "Trample\nLandfall — Whenever a land you control enters, put a +1/+1 counter on this creature. If that land is a Forest, put two +1/+1 counters on this creature instead.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Chocobo Racetrack",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
+    "oracle_text": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
     "reject_reason": "Mechanic word"
   },
   {
@@ -4531,8 +4559,8 @@
   {
     "card_name": "Hecatomb",
     "flavor_word": "Tap an untapped Swamp you control",
-    "full_line": "Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
-    "oracle_text": "When Hecatomb enters, sacrifice Hecatomb unless you sacrifice four creatures.\nTap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
+    "full_line": "Tap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
+    "oracle_text": "When this enchantment enters, sacrifice this enchantment unless you sacrifice four creatures.\nTap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
     "reject_reason": "Starts with cost word"
   },
   {
@@ -4750,6 +4778,13 @@
     "flavor_word": "Heroic",
     "full_line": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature and prevent all damage that would be dealt to it this turn.",
     "oracle_text": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature and prevent all damage that would be dealt to it this turn.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Ride the Shoopuf",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.",
+    "oracle_text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.\n{5}{G}{G}: This enchantment becomes a 7/7 Beast creature in addition to its other types.",
     "reject_reason": "Mechanic word"
   },
   {
@@ -6650,6 +6685,13 @@
     "reject_reason": "Starts with cost word"
   },
   {
+    "card_name": "Fatal Push",
+    "flavor_word": "Revolt",
+    "full_line": "Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
+    "oracle_text": "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Ghost-Lit Raider",
     "flavor_word": "Channel",
     "full_line": "Channel — {3}{R}, Discard this card: It deals 4 damage to target creature.",
@@ -8533,6 +8575,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Ambrosia Whiteheart",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Magda, Brazen Outlaw",
     "flavor_word": "Sacrifice five Treasures",
     "full_line": "Sacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle.",
@@ -9371,6 +9420,13 @@
     "full_line": "Sacrifice this creature: Creatures you control gain indestructible until end of turn.",
     "oracle_text": "Flying\nSacrifice this creature: Creatures you control gain indestructible until end of turn.",
     "reject_reason": "Starts with cost word"
+  },
+  {
+    "card_name": "Summon: Fat Chocobo",
+    "flavor_word": "I",
+    "full_line": "I — Wark — Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Wark — Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"\nII, III, IV — Kerplunk — Creatures you control gain trample until end of turn.",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Korlash, Heir to Blackblade",
@@ -11966,7 +12022,7 @@
     "card_name": "Ifrit, Warden of Inferno",
     "flavor_word": "I",
     "full_line": "I — Lunge — Ifrit fights up to one other target creature.",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -12133,8 +12189,8 @@
   {
     "card_name": "Hecatomb",
     "flavor_word": "Tap an untapped Swamp you control",
-    "full_line": "Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
-    "oracle_text": "When Hecatomb enters, sacrifice Hecatomb unless you sacrifice four creatures.\nTap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
+    "full_line": "Tap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
+    "oracle_text": "When this enchantment enters, sacrifice this enchantment unless you sacrifice four creatures.\nTap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
     "reject_reason": "Starts with cost word"
   },
   {
@@ -12444,6 +12500,13 @@
     "full_line": "Raid — At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's mana value.",
     "oracle_text": "Raid — At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's mana value.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Phoenix, Warden of Fire",
+    "flavor_word": "III",
+    "full_line": "III — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Rising Flames — Phoenix deals 2 damage to each opponent.\nIII — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).\nFlying, lifelink",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Archmage Emeritus",
@@ -13695,7 +13758,7 @@
     "card_name": "Summon: Leviathan",
     "flavor_word": "I",
     "full_line": "I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.",
-    "oracle_text": "I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.\nII, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.\nWard {2}",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.\nII, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.\nWard {2}",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -15921,7 +15984,7 @@
     "card_name": "Ifrit, Warden of Inferno",
     "flavor_word": "I",
     "full_line": "I — Lunge — Ifrit fights up to one other target creature.",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -16221,22 +16284,22 @@
   {
     "card_name": "Naktamun Shines Again",
     "flavor_word": "I",
-    "full_line": "I — All creature cards you own with mana value 2 or less perpetually get +1/+1.",
-    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+1.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
+    "full_line": "I — All creature cards you own with mana value 2 or less perpetually get +1/+0.",
+    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+0.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
     "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Naktamun Shines Again",
     "flavor_word": "II",
     "full_line": "II — Seek a creature card with mana value 2 or less and put it onto the battlefield.",
-    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+1.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
+    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+0.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
     "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Naktamun Shines Again",
     "flavor_word": "III",
     "full_line": "III — Creatures you control with mana value 2 or less gain flying until end of turn.",
-    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+1.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
+    "oracle_text": "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — All creature cards you own with mana value 2 or less perpetually get +1/+0.\nII — Seek a creature card with mana value 2 or less and put it onto the battlefield.\nIII — Creatures you control with mana value 2 or less gain flying until end of turn.",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -17225,6 +17288,13 @@
     "full_line": "Domain — This spell costs {1} less to cast for each basic land type among lands you control.",
     "oracle_text": "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Summon: Alexander",
+    "flavor_word": "III",
+    "full_line": "III — Tap all creatures your opponents control.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Prevent all damage that would be dealt to creatures you control this turn.\nIII — Tap all creatures your opponents control.\nFlying",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Tyvar, the Pummeler",
@@ -21896,6 +21966,20 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Inalla, Archmage Ritualist",
+    "flavor_word": "Eminence",
+    "full_line": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.",
+    "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Inalla, Archmage Ritualist",
+    "flavor_word": "Tap five untapped Wizards you control",
+    "full_line": "Tap five untapped Wizards you control: Target player loses 7 life.",
+    "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+    "reject_reason": "Starts with cost word"
+  },
+  {
     "card_name": "Tempt with Discovery",
     "flavor_word": "Tempting offer",
     "full_line": "Tempting offer — Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. For each opponent who searches a library this way, search your library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles.",
@@ -24976,6 +25060,13 @@
     "reject_reason": "Starts with cost word"
   },
   {
+    "card_name": "Summon: Brynhildr",
+    "flavor_word": "I",
+    "full_line": "I — Chain — Exile the top card of your library. During any turn you put a lore counter on this Saga, you may play that card.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Chain — Exile the top card of your library. During any turn you put a lore counter on this Saga, you may play that card.\nII, III — Gestalt Mode — When you next cast a creature spell this turn, it gains haste until end of turn.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Vashta Nerada",
     "flavor_word": "Morbid",
     "full_line": "Morbid — At the beginning of each end step, if a creature died this turn, put a +1/+1 counter on this creature.",
@@ -25256,6 +25347,13 @@
     "reject_reason": "Contains digits or bad punctuation"
   },
   {
+    "card_name": "Bahamut, Warden of Light",
+    "flavor_word": "III",
+    "full_line": "III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn.\nIII — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Kylox's Voltstrider",
     "flavor_word": "Collect evidence 6",
     "full_line": "Collect evidence 6: This Vehicle becomes an artifact creature until end of turn.",
@@ -25485,6 +25583,13 @@
     "full_line": "Heroic — Whenever you cast a spell that targets Anthousa, up to three target lands you control each become 2/2 Warrior creatures until end of turn. They're still lands.",
     "oracle_text": "Heroic — Whenever you cast a spell that targets Anthousa, up to three target lands you control each become 2/2 Warrior creatures until end of turn. They're still lands.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Phoenix, Warden of Fire",
+    "flavor_word": "III",
+    "full_line": "III — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Rising Flames — Phoenix deals 2 damage to each opponent.\nIII — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).\nFlying, lifelink",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Elvish Spirit Guide",
@@ -25804,8 +25909,8 @@
   {
     "card_name": "Hecatomb",
     "flavor_word": "Tap an untapped Swamp you control",
-    "full_line": "Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
-    "oracle_text": "When Hecatomb enters, sacrifice Hecatomb unless you sacrifice four creatures.\nTap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
+    "full_line": "Tap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
+    "oracle_text": "When this enchantment enters, sacrifice this enchantment unless you sacrifice four creatures.\nTap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
     "reject_reason": "Starts with cost word"
   },
   {
@@ -27552,6 +27657,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Rydia, Summoner of Mist",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Tireless Provisioner",
     "flavor_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
@@ -27674,7 +27786,7 @@
     "card_name": "Ifrit, Warden of Inferno",
     "flavor_word": "I",
     "full_line": "I — Lunge — Ifrit fights up to one other target creature.",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -27914,6 +28026,13 @@
     "full_line": "Landfall — Whenever a land you control enters, you get {E}{E} (two energy counters).",
     "oracle_text": "Landfall — Whenever a land you control enters, you get {E}{E} (two energy counters).\nYou may pay eight {E} rather than pay the mana cost for permanent spells you cast.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Ranger-Captain of Eos",
+    "flavor_word": "Sacrifice this creature",
+    "full_line": "Sacrifice this creature: Your opponents can't cast noncreature spells this turn.",
+    "oracle_text": "When this creature enters, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\nSacrifice this creature: Your opponents can't cast noncreature spells this turn.",
+    "reject_reason": "Starts with cost word"
   },
   {
     "card_name": "Goblin Bombardment",
@@ -28698,6 +28817,13 @@
     "full_line": "Hellbent — If you have no cards in hand, instead search your library for a card, put it into your hand, then shuffle.",
     "oracle_text": "Reveal a card from your hand. Search your library for a card with the same name as that card, reveal it, put it into your hand, then shuffle.\nHellbent — If you have no cards in hand, instead search your library for a card, put it into your hand, then shuffle.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Bahamut, Warden of Light",
+    "flavor_word": "III",
+    "full_line": "III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn.\nIII — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Three Blind Mice",
@@ -29540,6 +29666,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Summon: Fat Chocobo",
+    "flavor_word": "I",
+    "full_line": "I — Wark — Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Wark — Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"\nII, III, IV — Kerplunk — Creatures you control gain trample until end of turn.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Tunnel of Love",
     "flavor_word": "Visit",
     "full_line": "Visit — Choose an opponent. They choose a creature they control, then you choose a creature you control. You may exile the chosen creatures. If you do, return them to the battlefield under their owners' control at the beginning of the next end step. Otherwise, the chosen creatures fight each other.",
@@ -29978,6 +30111,27 @@
     "flavor_word": "IV",
     "full_line": "IV — Target opponent faces a villainous choice — Destroy all Dalek creatures and each of your opponents loses life equal to the total power of Daleks that died this turn, or destroy all non-Dalek creatures.",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Create a 3/3 black Dalek artifact creature token with menace for each lore counter on Genesis of the Daleks.\nIV — Target opponent faces a villainous choice — Destroy all Dalek creatures and each of your opponents loses life equal to the total power of Daleks that died this turn, or destroy all non-Dalek creatures.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "I",
+    "full_line": "I — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "II",
+    "full_line": "II — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "III",
+    "full_line": "III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -32844,6 +32998,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Scion of Draco",
+    "flavor_word": "Domain",
+    "full_line": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.",
+    "oracle_text": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.\nFlying\nEach creature you control has vigilance if it's white, hexproof if it's blue, lifelink if it's black, first strike if it's red, and trample if it's green.",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Galadriel, Elven-Queen",
     "flavor_word": "Will of the council",
     "full_line": "Will of the council — At the beginning of combat on your turn, if another Elf entered the battlefield under your control this turn, starting with you, each player votes for dominion or guidance. If dominion gets more votes, the Ring tempts you, then you put a +1/+1 counter on your Ring-bearer. If guidance gets more votes or the vote is tied, draw a card.",
@@ -33299,6 +33460,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Phoenix, Warden of Fire",
+    "flavor_word": "III",
+    "full_line": "III — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Rising Flames — Phoenix deals 2 damage to each opponent.\nIII — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).\nFlying, lifelink",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Glistening Sphere",
     "flavor_word": "Corrupted",
     "full_line": "Corrupted — {T}: Add three mana of any one color. Activate only if an opponent has three or more poison counters.",
@@ -33486,6 +33654,13 @@
     "full_line": "Collect evidence 6: This Vehicle becomes an artifact creature until end of turn.",
     "oracle_text": "Collect evidence 6: This Vehicle becomes an artifact creature until end of turn.\nWhenever this Vehicle attacks, you may cast an instant or sorcery spell from among cards exiled with it. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.\nCrew 2",
     "reject_reason": "Contains digits or bad punctuation"
+  },
+  {
+    "card_name": "Goblin Bombardment",
+    "flavor_word": "Sacrifice a creature",
+    "full_line": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+    "oracle_text": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+    "reject_reason": "Starts with cost word"
   },
   {
     "card_name": "Woe Strider",
@@ -35054,6 +35229,13 @@
     "full_line": "Magecraft — Whenever you cast or copy an instant or sorcery spell, target creature you control has base power 3 until end of turn.",
     "oracle_text": "Flying\nMagecraft — Whenever you cast or copy an instant or sorcery spell, target creature you control has base power 3 until end of turn.",
     "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Summon: Alexander",
+    "flavor_word": "III",
+    "full_line": "III — Tap all creatures your opponents control.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Prevent all damage that would be dealt to creatures you control this turn.\nIII — Tap all creatures your opponents control.\nFlying",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Brain Weevil",
@@ -37327,7 +37509,7 @@
     "card_name": "Ifrit, Warden of Inferno",
     "flavor_word": "I",
     "full_line": "I — Lunge — Ifrit fights up to one other target creature.",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -37793,6 +37975,27 @@
     "reject_reason": "Starts with cost word"
   },
   {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "I",
+    "full_line": "I — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "II",
+    "full_line": "II — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
+    "card_name": "Summon: G.F. Cerberus",
+    "flavor_word": "III",
+    "full_line": "III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nII — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\nIII — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Devilish Valet",
     "flavor_word": "Alliance",
     "full_line": "Alliance — Whenever another creature you control enters, double this creature's power until end of turn.",
@@ -38180,8 +38383,8 @@
   {
     "card_name": "Hecatomb",
     "flavor_word": "Tap an untapped Swamp you control",
-    "full_line": "Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
-    "oracle_text": "When Hecatomb enters, sacrifice Hecatomb unless you sacrifice four creatures.\nTap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",
+    "full_line": "Tap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
+    "oracle_text": "When this enchantment enters, sacrifice this enchantment unless you sacrifice four creatures.\nTap an untapped Swamp you control: This enchantment deals 1 damage to any target.",
     "reject_reason": "Starts with cost word"
   },
   {
@@ -39212,6 +39415,13 @@
     "full_line": "Pay 1 life: Return this creature to its owner's hand.",
     "oracle_text": "Flying\nWhen this creature enters, return a blue or black creature you control to its owner's hand.\nPay 1 life: Return this creature to its owner's hand.",
     "reject_reason": "Starts with cost word"
+  },
+  {
+    "card_name": "Bahamut, Warden of Light",
+    "flavor_word": "III",
+    "full_line": "III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn.\nIII — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "reject_reason": "Saga chapter numeral"
   },
   {
     "card_name": "Temur Battle Rage",
@@ -41608,6 +41818,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Varragoth, Bloodsky Sire",
+    "flavor_word": "Boast",
+    "full_line": "Boast — {1}{B}: Target player searches their library for a card, then shuffles and puts that card on top. (Activate only if this creature attacked this turn and only once each turn.)",
+    "oracle_text": "Deathtouch\nBoast — {1}{B}: Target player searches their library for a card, then shuffles and puts that card on top. (Activate only if this creature attacked this turn and only once each turn.)",
+    "reject_reason": "Mechanic word"
+  },
+  {
     "card_name": "Riverchurn Monument",
     "flavor_word": "Exhaust",
     "full_line": "Exhaust — {2}{U}{U}, {T}: Any number of target players each mill cards equal to the number of cards in their graveyard. (Activate each exhaust ability only once.)",
@@ -42388,7 +42605,7 @@
     "card_name": "Summon: Leviathan",
     "flavor_word": "I",
     "full_line": "I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.",
-    "oracle_text": "I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.\nII, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.\nWard {2}",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.\nII, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.\nWard {2}",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -43820,6 +44037,13 @@
     "reject_reason": "Mechanic word"
   },
   {
+    "card_name": "Bahamut, Warden of Light",
+    "flavor_word": "III",
+    "full_line": "III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn.\nIII — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Tideforce Elemental",
     "flavor_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, you may untap this creature.",
@@ -43838,6 +44062,13 @@
     "flavor_word": "Domain",
     "full_line": "Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control.",
     "oracle_text": "Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
     "reject_reason": "Mechanic word"
   },
   {
@@ -44531,6 +44762,13 @@
     "flavor_word": "Addendum",
     "full_line": "Addendum — If you cast this spell during your main phase, instead scry 3, then draw three cards.",
     "oracle_text": "Draw three cards.\nAddendum — If you cast this spell during your main phase, instead scry 3, then draw three cards.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Rydia, Summoner of Mist",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.",
     "reject_reason": "Mechanic word"
   },
   {
@@ -45234,6 +45472,13 @@
     "reject_reason": "Starts with cost word"
   },
   {
+    "card_name": "Summon: Brynhildr",
+    "flavor_word": "I",
+    "full_line": "I — Chain — Exile the top card of your library. During any turn you put a lore counter on this Saga, you may play that card.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Chain — Exile the top card of your library. During any turn you put a lore counter on this Saga, you may play that card.\nII, III — Gestalt Mode — When you next cast a creature spell this turn, it gains haste until end of turn.",
+    "reject_reason": "Saga chapter numeral"
+  },
+  {
     "card_name": "Burrenton Forge-Tender",
     "flavor_word": "Sacrifice this creature",
     "full_line": "Sacrifice this creature: Prevent all damage a red source of your choice would deal this turn.",
@@ -45279,7 +45524,7 @@
     "card_name": "Ifrit, Warden of Inferno",
     "flavor_word": "I",
     "full_line": "I — Lunge — Ifrit fights up to one other target creature.",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up.)",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Lunge — Ifrit fights up to one other target creature.\nII, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
     "reject_reason": "Saga chapter numeral"
   },
   {
@@ -45616,6 +45861,13 @@
     "flavor_word": "Heroic",
     "full_line": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature.",
     "oracle_text": "Aura spells you cast cost {1} less to cast.\nHeroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature.",
+    "reject_reason": "Mechanic word"
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "flavor_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
     "reject_reason": "Mechanic word"
   },
   {

@@ -5352,6 +5352,12 @@
     "oracle_text": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.\nFlying\nEach creature you control has vigilance if it's white, hexproof if it's blue, lifelink if it's black, first strike if it's red, and trample if it's green."
   },
   {
+    "card_name": "Scion of Draco",
+    "ability_word": "Domain",
+    "full_line": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.",
+    "oracle_text": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.\nFlying\nEach creature you control has vigilance if it's white, hexproof if it's blue, lifelink if it's black, first strike if it's red, and trample if it's green."
+  },
+  {
     "card_name": "Shadow Prophecy",
     "ability_word": "Domain",
     "full_line": "Domain — Look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to two of them into your hand and the rest into your graveyard. You lose 2 life.",
@@ -5842,6 +5848,12 @@
     "ability_word": "Eminence",
     "full_line": "Eminence — Whenever you cast another Vampire spell, if Edgar is in the command zone or on the battlefield, create a 1/1 black Vampire creature token.",
     "oracle_text": "Eminence — Whenever you cast another Vampire spell, if Edgar is in the command zone or on the battlefield, create a 1/1 black Vampire creature token.\nFirst strike, haste\nWhenever Edgar attacks, put a +1/+1 counter on each Vampire you control."
+  },
+  {
+    "card_name": "Inalla, Archmage Ritualist",
+    "ability_word": "Eminence",
+    "full_line": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.",
+    "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life."
   },
   {
     "card_name": "Inalla, Archmage Ritualist",
@@ -9174,6 +9186,24 @@
     "oracle_text": "Landfall — Whenever a land you control enters, you may pay {2}{R}. If you do, create a 3/1 red Elemental creature token with trample and haste. Exile that token at the beginning of the next end step."
   },
   {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
+  },
+  {
     "card_name": "Architect of the Untamed",
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, you get {E} (an energy counter).",
@@ -9328,6 +9358,12 @@
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, this creature gains first strike until end of turn.",
     "oracle_text": "Landfall — Whenever a land you control enters, this creature gains first strike until end of turn."
+  },
+  {
+    "card_name": "Black Chocobo",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn.",
+    "oracle_text": "When this permanent transforms into Black Chocobo, search your library for a land card, put it onto the battlefield tapped, then shuffle.\nLandfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn."
   },
   {
     "card_name": "Bloodghast",
@@ -9538,6 +9574,12 @@
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn.",
     "oracle_text": "Whenever one or more Birds you control attack, look at that many cards from the top of your library. You may put one of them into your hand. Then put any number of land cards from among them onto the battlefield tapped and the rest into your graveyard.\nLandfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn."
+  },
+  {
+    "card_name": "Chocobo Racetrack",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
+    "oracle_text": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\""
   },
   {
     "card_name": "Cosi's Ravager",
@@ -11238,6 +11280,12 @@
     "oracle_text": "Landfall — Whenever a land you control enters, choose one —\n• Target creature gets +2/+0 until end of turn.\n• Target creature can't block this turn."
   },
   {
+    "card_name": "Ride the Shoopuf",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.",
+    "oracle_text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.\n{5}{G}{G}: This enchantment becomes a 7/7 Beast creature in addition to its other types."
+  },
+  {
     "card_name": "Roaring Earth",
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature or Vehicle you control.",
@@ -11302,6 +11350,24 @@
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
     "oracle_text": "Landfall — Whenever a land you control enters, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)"
+  },
+  {
+    "card_name": "Rydia, Summoner of Mist",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Rydia, Summoner of Mist",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Sabotender",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+    "oracle_text": "Reach\nLandfall — Whenever a land you control enters, this creature deals 1 damage to each opponent."
   },
   {
     "card_name": "Sazh's Chocobo",
@@ -15694,6 +15760,12 @@
     "ability_word": "Revolt",
     "full_line": "Revolt — If a permanent left the battlefield under your control this turn, you gain 3 life.",
     "oracle_text": "Destroy target artifact or enchantment.\nRevolt — If a permanent left the battlefield under your control this turn, you gain 3 life."
+  },
+  {
+    "card_name": "Fatal Push",
+    "ability_word": "Revolt",
+    "full_line": "Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
+    "oracle_text": "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."
   },
   {
     "card_name": "Fatal Push",

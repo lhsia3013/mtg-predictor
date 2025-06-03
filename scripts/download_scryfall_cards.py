@@ -14,7 +14,7 @@ response = requests.get(download_url)
 
 # Save full card data (list of dicts)
 raw_cards = response.json()
-output_path = Path("data/raw/scryfall_full_cards.json")
+output_path = Path("../data/raw/scryfall_full_cards.json")
 output_path.parent.mkdir(parents=True, exist_ok=True)
 
 with open(output_path, "w", encoding="utf-8") as f:
