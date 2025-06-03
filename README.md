@@ -138,7 +138,7 @@ To regenerate all structured rule data and the final `ml_ready_mechanics.json`, 
 ```bash
 cd scripts
 ./run_full_mechanic_pipeline.sh
-
+```
 ---
 
 ## 🔮 Next Steps
