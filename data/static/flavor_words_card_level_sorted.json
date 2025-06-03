@@ -594,6 +594,24 @@
     "oracle_text": "Flying\nUnearthly Power — Instant and sorcery spells you cast cost {1} less to cast for each creature token you control.\nBlade of Magnus — Whenever Magnus the Red deals combat damage to a player, create a 3/3 red Spawn creature token."
   },
   {
+    "card_name": "Hydaelyn, the Mothercrystal",
+    "flavor_word": "Blessing of Light",
+    "full_line": "Blessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card.",
+    "oracle_text": "Indestructible\nBlessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card."
+  },
+  {
+    "card_name": "Hydaelyn, the Mothercrystal",
+    "flavor_word": "Blessing of Light",
+    "full_line": "Blessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card.",
+    "oracle_text": "Indestructible\nBlessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card."
+  },
+  {
+    "card_name": "Hydaelyn, the Mothercrystal",
+    "flavor_word": "Blessing of Light",
+    "full_line": "Blessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card.",
+    "oracle_text": "Indestructible\nBlessing of Light — At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. Until your next turn, it gains indestructible. If that creature is legendary, draw a card."
+  },
+  {
     "card_name": "Elder Arthur Maxson",
     "flavor_word": "Blind Betrayal",
     "full_line": "Blind Betrayal — Sacrifice another creature: Elder Arthur Maxson gains indestructible until end of turn.",
@@ -646,6 +664,12 @@
     "flavor_word": "Blood Drain",
     "full_line": "Blood Drain — {1}{B}, Pay 1 life, Sacrifice this creature: Draw a card.",
     "oracle_text": "Flying\nThis creature can't block.\nBlood Drain — {1}{B}, Pay 1 life, Sacrifice this creature: Draw a card."
+  },
+  {
+    "card_name": "Blazing Bomb",
+    "flavor_word": "Blow Up",
+    "full_line": "Blow Up — {T}, Sacrifice this creature: It deals damage equal to its power to target creature. Activate only as a sorcery.",
+    "oracle_text": "Whenever you cast a noncreature spell, if at least four mana was spent to cast it, put a +1/+1 counter on this creature.\nBlow Up — {T}, Sacrifice this creature: It deals damage equal to its power to target creature. Activate only as a sorcery."
   },
   {
     "card_name": "Quistis Trepe",
@@ -922,6 +946,12 @@
     "flavor_word": "Chaos",
     "full_line": "Chaos: Spin this plane until the arrow lands on a permanent. If the plane rotated at least 360 degrees during the spin, create a token that's a copy of that permanent.",
     "oracle_text": "When you planeswalk here and at the beginning of your upkeep, create a Tulip Petal artifact token that has \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nChaos: Spin this plane until the arrow lands on a permanent. If the plane rotated at least 360 degrees during the spin, create a token that's a copy of that permanent."
+  },
+  {
+    "card_name": "Dark Knight's Greatsword",
+    "flavor_word": "Chaosbringer",
+    "full_line": "Chaosbringer — Equip—Pay 3 life. Activate only once each turn.",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+0 and is a Knight in addition to its other types.\nChaosbringer — Equip—Pay 3 life. Activate only once each turn."
   },
   {
     "card_name": "Marneus Calgar",
@@ -1584,10 +1614,10 @@
     "oracle_text": "Dominate Monster — When this creature enters, gain control of target creature for as long as you control this creature."
   },
   {
-    "card_name": "Dragon Turtle",
-    "flavor_word": "Drag Below",
-    "full_line": "Drag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps.",
-    "oracle_text": "Flash\nDrag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps."
+    "card_name": "World Champion, Celestial Weapon",
+    "flavor_word": "Double Overdrive",
+    "full_line": "Double Overdrive — Equipped creature gets +2/+0 and has double strike.",
+    "oracle_text": "Double Overdrive — Equipped creature gets +2/+0 and has double strike.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
   },
   {
     "card_name": "Dragon Turtle",
@@ -1612,6 +1642,36 @@
     "flavor_word": "Drag Below",
     "full_line": "Drag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps.",
     "oracle_text": "Flash\nDrag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps."
+  },
+  {
+    "card_name": "Dragon Turtle",
+    "flavor_word": "Drag Below",
+    "full_line": "Drag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps.",
+    "oracle_text": "Flash\nDrag Below — When this creature enters, tap it and up to one target creature an opponent controls. They don't untap during their controllers' next untap steps."
+  },
+  {
+    "card_name": "Dion, Bahamut's Dominant",
+    "flavor_word": "Dragonfire Dive",
+    "full_line": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.",
+    "oracle_text": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.\nWhen Dion enters, create a 2/2 white Knight creature token.\n{4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Dion, Bahamut's Dominant",
+    "flavor_word": "Dragonfire Dive",
+    "full_line": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.",
+    "oracle_text": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.\nWhen Dion enters, create a 2/2 white Knight creature token.\n{4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Dion, Bahamut's Dominant",
+    "flavor_word": "Dragonfire Dive",
+    "full_line": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.",
+    "oracle_text": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.\nWhen Dion enters, create a 2/2 white Knight creature token.\n{4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Dion, Bahamut's Dominant",
+    "flavor_word": "Dragonfire Dive",
+    "full_line": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.",
+    "oracle_text": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying.\nWhen Dion enters, create a 2/2 white Knight creature token.\n{4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery."
   },
   {
     "card_name": "Shard of the Nightbringer",
@@ -1968,12 +2028,6 @@
     "oracle_text": "Protection from Robots\nField Reprogramming — {U}, {T}: Target player draws a card. Another target player creates a 4/4 colorless Robot artifact creature token with \"This token can't block.\""
   },
   {
-    "card_name": "MagicConsecrated Sphinx",
-    "flavor_word": "Find Cards",
-    "full_line": "Find Cards — Investigate.",
-    "oracle_text": "Flying\nWhenever an opponent draws a card, choose one that hasn't been chosen —\nMake Friends — Create a 1/1 colorless Gamer creature token.\nFind Cards — Investigate.\nWin Prize Tickets — Create a Treasure token.\nGo to Sleep — Exile this creature, then return it to the battlefield under its owner's control."
-  },
-  {
     "card_name": "Red Dragon",
     "flavor_word": "Fire Breath",
     "full_line": "Fire Breath — When this creature enters, it deals 4 damage to each opponent.",
@@ -1996,6 +2050,30 @@
     "flavor_word": "Fire Breath",
     "full_line": "Fire Breath — When this creature enters, it deals 4 damage to each opponent.",
     "oracle_text": "Flying\nFire Breath — When this creature enters, it deals 4 damage to each opponent."
+  },
+  {
+    "card_name": "Seifer Almasy",
+    "flavor_word": "Fire Cross",
+    "full_line": "Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+    "oracle_text": "Whenever a creature you control attacks alone, it gains double strike until end of turn.\nFire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+  },
+  {
+    "card_name": "Seifer Almasy",
+    "flavor_word": "Fire Cross",
+    "full_line": "Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+    "oracle_text": "Whenever a creature you control attacks alone, it gains double strike until end of turn.\nFire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+  },
+  {
+    "card_name": "Seifer Almasy",
+    "flavor_word": "Fire Cross",
+    "full_line": "Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+    "oracle_text": "Whenever a creature you control attacks alone, it gains double strike until end of turn.\nFire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+  },
+  {
+    "card_name": "Seifer Almasy",
+    "flavor_word": "Fire Cross",
+    "full_line": "Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+    "oracle_text": "Whenever a creature you control attacks alone, it gains double strike until end of turn.\nFire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
   },
   {
     "card_name": "Exalted Flamer of Tzeentch",
@@ -2298,12 +2376,6 @@
     "oracle_text": "Vigilance, trample\nGrenades! — {2}, {T}, Sacrifice an artifact: Choose a player at random. When you do, Strax fights another target creature that player controls.\nGlory of Battle — Whenever Strax deals damage to a creature, put a +1/+1 counter on Strax."
   },
   {
-    "card_name": "MagicConsecrated Sphinx",
-    "flavor_word": "Go to Sleep",
-    "full_line": "Go to Sleep — Exile this creature, then return it to the battlefield under its owner's control.",
-    "oracle_text": "Flying\nWhenever an opponent draws a card, choose one that hasn't been chosen —\nMake Friends — Create a 1/1 colorless Gamer creature token.\nFind Cards — Investigate.\nWin Prize Tickets — Create a Treasure token.\nGo to Sleep — Exile this creature, then return it to the battlefield under its owner's control."
-  },
-  {
     "card_name": "Dungeon of the Mad Mage",
     "flavor_word": "Goblin Bazaar",
     "full_line": "Goblin Bazaar — Create a Treasure token. (Leads to: Lost Level)",
@@ -2562,6 +2634,24 @@
     "oracle_text": "Heavy Rock Cutter — Whenever this creature attacks, destroy up to one target artifact. If an artifact is destroyed this way, its controller draws a card."
   },
   {
+    "card_name": "Venat, Heart of Hydaelyn",
+    "flavor_word": "Hero's Sundering",
+    "full_line": "Hero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery.",
+    "oracle_text": "Whenever you cast a legendary spell, draw a card. This ability triggers only once each turn.\nHero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Venat, Heart of Hydaelyn",
+    "flavor_word": "Hero's Sundering",
+    "full_line": "Hero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery.",
+    "oracle_text": "Whenever you cast a legendary spell, draw a card. This ability triggers only once each turn.\nHero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Venat, Heart of Hydaelyn",
+    "flavor_word": "Hero's Sundering",
+    "full_line": "Hero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery.",
+    "oracle_text": "Whenever you cast a legendary spell, draw a card. This ability triggers only once each turn.\nHero's Sundering — {7}, {T}: Exile target nonland permanent. Transform Venat. Activate only as a sorcery."
+  },
+  {
     "card_name": "Barbara Wright",
     "flavor_word": "History Teacher",
     "full_line": "History Teacher — Sagas you control have read ahead. (As a Saga enters, choose a chapter and start with that many lore counters. Skipped chapters don't trigger.)",
@@ -2764,6 +2854,18 @@
     "flavor_word": "I - Sonic Wings",
     "full_line": "I - Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands.",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI - Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands.\nII, III, IV - Tap up to one target creature and put a stun counter on it.\nFlying"
+  },
+  {
+    "card_name": "Diamond Weapon",
+    "flavor_word": "Immune",
+    "full_line": "Immune — Prevent all combat damage that would be dealt to Diamond Weapon.",
+    "oracle_text": "This spell costs {1} less to cast for each permanent card in your graveyard.\nReach\nImmune — Prevent all combat damage that would be dealt to Diamond Weapon."
+  },
+  {
+    "card_name": "Diamond Weapon",
+    "flavor_word": "Immune",
+    "full_line": "Immune — Prevent all combat damage that would be dealt to Diamond Weapon.",
+    "oracle_text": "This spell costs {1} less to cast for each permanent card in your graveyard.\nReach\nImmune — Prevent all combat damage that would be dealt to Diamond Weapon."
   },
   {
     "card_name": "Clara Oswald",
@@ -3264,12 +3366,6 @@
     "oracle_text": "Magical Tinkering — {W}, {T}, Sacrifice an artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield, then shuffle. Activate only as a sorcery."
   },
   {
-    "card_name": "MagicConsecrated Sphinx",
-    "flavor_word": "Make Friends",
-    "full_line": "Make Friends — Create a 1/1 colorless Gamer creature token.",
-    "oracle_text": "Flying\nWhenever an opponent draws a card, choose one that hasn't been chosen —\nMake Friends — Create a 1/1 colorless Gamer creature token.\nFind Cards — Investigate.\nWin Prize Tickets — Create a Treasure token.\nGo to Sleep — Exile this creature, then return it to the battlefield under its owner's control."
-  },
-  {
     "card_name": "The Master, Gallifrey's End",
     "flavor_word": "Make Them Pay",
     "full_line": "Make Them Pay — Whenever a nontoken artifact creature you control dies, you may exile it. If you do, choose an opponent with the most life among your opponents. That player faces a villainous choice — They lose 4 life, or you create a token that's a copy of that card.",
@@ -3588,6 +3684,12 @@
     "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+2, has trample and haste, and is a Samurai in addition to its other types.\nMurasame — Equip {5}"
   },
   {
+    "card_name": "Ninja's Blades",
+    "flavor_word": "Mutsunokami",
+    "full_line": "Mutsunokami — Equip {2}",
+    "oracle_text": "Job select\nEquipped creature gets +1/+1, is a Ninja in addition to its other types, and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card. That player loses life equal to the discarded card's mana value.\"\nMutsunokami — Equip {2}"
+  },
+  {
     "card_name": "Zenos yae Galvus",
     "flavor_word": "My First Friend",
     "full_line": "My First Friend — When Zenos yae Galvus enters, choose a creature an opponent controls. Until end of turn, creatures other than Zenos yae Galvus and the chosen creature get -2/-2.",
@@ -3834,6 +3936,18 @@
     "oracle_text": "Skulk (This creature can't be blocked by creatures with greater power.)\nParallel Universe — Whenever this creature deals combat damage to a player, time travel. (For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter.)"
   },
   {
+    "card_name": "Cloud of Darkness",
+    "flavor_word": "Particle Beam",
+    "full_line": "Particle Beam — When Cloud of Darkness enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of permanent cards in your graveyard.",
+    "oracle_text": "Flying\nParticle Beam — When Cloud of Darkness enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of permanent cards in your graveyard."
+  },
+  {
+    "card_name": "Cloud of Darkness",
+    "flavor_word": "Particle Beam",
+    "full_line": "Particle Beam — When Cloud of Darkness enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of permanent cards in your graveyard.",
+    "oracle_text": "Flying\nParticle Beam — When Cloud of Darkness enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of permanent cards in your graveyard."
+  },
+  {
     "card_name": "The Fifth Doctor",
     "flavor_word": "Peaceful Coexistence",
     "full_line": "Peaceful Coexistence — At the beginning of your end step, put a +1/+1 counter on each creature you control that didn't attack or enter this turn. Untap those creatures.",
@@ -3886,6 +4000,12 @@
     "flavor_word": "Perfect Illumination",
     "full_line": "Perfect Illumination — Whenever you roll a die's highest natural result, draw a card.",
     "oracle_text": "Focus Beam — At the beginning of your upkeep, roll a d4. Scry X, where X is the result.\nPerfect Illumination — Whenever you roll a die's highest natural result, draw a card."
+  },
+  {
+    "card_name": "Bard's Bow",
+    "flavor_word": "Perseus's Bow",
+    "full_line": "Perseus's Bow — Equip {6} ({6}: Attach to target creature you control. Equip only as a sorcery.)",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+2, has reach, and is a Bard in addition to its other types.\nPerseus's Bow — Equip {6} ({6}: Attach to target creature you control. Equip only as a sorcery.)"
   },
   {
     "card_name": "Imotekh the Stormlord",
@@ -4562,8 +4682,8 @@
   {
     "card_name": "Undercity Dire Rat",
     "flavor_word": "Rat Tail",
-    "full_line": "Rat Tail — When this creature dies, create a Treasure token. (It's an artifact with \", Sacrifice this token: Add one mana of any color.\")",
-    "oracle_text": "Rat Tail — When this creature dies, create a Treasure token. (It's an artifact with \", Sacrifice this token: Add one mana of any color.\")"
+    "full_line": "Rat Tail — When this creature dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "oracle_text": "Rat Tail — When this creature dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"
   },
   {
     "card_name": "Ood Sphere",
@@ -5220,6 +5340,30 @@
     "oracle_text": "Secrets of the Soul — {T}, Sacrifice another creature: Add an amount of {B} equal to the sacrificed creature's mana value."
   },
   {
+    "card_name": "Prompto Argentum",
+    "flavor_word": "Selfie Shot",
+    "full_line": "Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",
+    "oracle_text": "Haste\nSelfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
+  },
+  {
+    "card_name": "Prompto Argentum",
+    "flavor_word": "Selfie Shot",
+    "full_line": "Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",
+    "oracle_text": "Haste\nSelfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
+  },
+  {
+    "card_name": "Prompto Argentum",
+    "flavor_word": "Selfie Shot",
+    "full_line": "Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",
+    "oracle_text": "Haste\nSelfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
+  },
+  {
+    "card_name": "Prompto Argentum",
+    "flavor_word": "Selfie Shot",
+    "full_line": "Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",
+    "oracle_text": "Haste\nSelfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
+  },
+  {
     "card_name": "Sergeant John Benton",
     "flavor_word": "Share Intelligence",
     "full_line": "Share Intelligence — Whenever Sergeant John Benton deals combat damage to a player, you and that player each draw that many cards.",
@@ -5320,6 +5464,18 @@
     "flavor_word": "Sixty-Six Seconds",
     "full_line": "Sixty-Six Seconds — At the beginning of your upkeep, sacrifice a creature with the least toughness among creatures you control. Then investigate.",
     "oracle_text": "When you planeswalk to The Dining Car, each player creates a Food token.\nSixty-Six Seconds — At the beginning of your upkeep, sacrifice a creature with the least toughness among creatures you control. Then investigate.\nWhenever chaos ensues, activated abilities of artifact tokens you control cost {2} less to activate this turn."
+  },
+  {
+    "card_name": "Strago and Relm",
+    "flavor_word": "Sketch and Lore",
+    "full_line": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery.",
+    "oracle_text": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery."
+  },
+  {
+    "card_name": "Strago and Relm",
+    "flavor_word": "Sketch and Lore",
+    "full_line": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery.",
+    "oracle_text": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery."
   },
   {
     "card_name": "Atalan Jackal",
@@ -5928,6 +6084,18 @@
     "oracle_text": "Leading from the Front — Whenever Commissar Severina Raine attacks, each opponent loses X life, where X is the number of other attacking creatures.\nSummary Execution — {2}, Sacrifice another creature: You gain 2 life and draw a card."
   },
   {
+    "card_name": "Rydia, Summoner of Mist",
+    "flavor_word": "Summon",
+    "full_line": "Summon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
+  },
+  {
+    "card_name": "Rydia, Summoner of Mist",
+    "flavor_word": "Summon",
+    "full_line": "Summon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
+  },
+  {
     "card_name": "Sephiroth, One-Winged Angel",
     "flavor_word": "Super Nova",
     "full_line": "Super Nova — As this creature transforms into Sephiroth, One-Winged Angel, you get an emblem with \"Whenever a creature dies, target opponent loses 1 life and you gain 1 life.\"",
@@ -6198,10 +6366,16 @@
     "oracle_text": "Ravenous (This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters.)\nTerror from the Deep — When this creature enters, it fights up to one target creature an opponent controls. If that creature would die this turn, exile it instead."
   },
   {
-    "card_name": "Khârn the Betrayer",
-    "flavor_word": "The Betrayer",
-    "full_line": "The Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it.",
-    "oracle_text": "Berzerker — Khârn the Betrayer attacks or blocks each combat if able.\nSigil of Corruption — When you lose control of Khârn the Betrayer, draw two cards.\nThe Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it."
+    "card_name": "G'raha Tia",
+    "flavor_word": "The Allagan Eye",
+    "full_line": "The Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn.",
+    "oracle_text": "Reach\nThe Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn."
+  },
+  {
+    "card_name": "G'raha Tia",
+    "flavor_word": "The Allagan Eye",
+    "full_line": "The Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn.",
+    "oracle_text": "Reach\nThe Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn."
   },
   {
     "card_name": "Khârn the Betrayer",
@@ -6210,10 +6384,10 @@
     "oracle_text": "Berzerker — Khârn the Betrayer attacks or blocks each combat if able.\nSigil of Corruption — When you lose control of Khârn the Betrayer, draw two cards.\nThe Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it."
   },
   {
-    "card_name": "Rory Williams",
-    "flavor_word": "The Last Centurion",
-    "full_line": "The Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
-    "oracle_text": "Partner with Amy Pond\nFirst strike, lifelink\nThe Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"
+    "card_name": "Khârn the Betrayer",
+    "flavor_word": "The Betrayer",
+    "full_line": "The Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it.",
+    "oracle_text": "Berzerker — Khârn the Betrayer attacks or blocks each combat if able.\nSigil of Corruption — When you lose control of Khârn the Betrayer, draw two cards.\nThe Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it."
   },
   {
     "card_name": "Rory Williams",
@@ -6232,6 +6406,36 @@
     "flavor_word": "The Last Centurion",
     "full_line": "The Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
     "oracle_text": "Partner with Amy Pond\nFirst strike, lifelink\nThe Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"
+  },
+  {
+    "card_name": "Rory Williams",
+    "flavor_word": "The Last Centurion",
+    "full_line": "The Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+    "oracle_text": "Partner with Amy Pond\nFirst strike, lifelink\nThe Last Centurion — When you cast this spell from anywhere other than exile, exile it with three time counters on it. It gains suspend. Then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"
+  },
+  {
+    "card_name": "The Wandering Minstrel",
+    "flavor_word": "The Minstrel's Ballad",
+    "full_line": "The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.",
+    "oracle_text": "Lands you control enter untapped.\nThe Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.\n{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control."
+  },
+  {
+    "card_name": "The Wandering Minstrel",
+    "flavor_word": "The Minstrel's Ballad",
+    "full_line": "The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.",
+    "oracle_text": "Lands you control enter untapped.\nThe Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.\n{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control."
+  },
+  {
+    "card_name": "The Wandering Minstrel",
+    "flavor_word": "The Minstrel's Ballad",
+    "full_line": "The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.",
+    "oracle_text": "Lands you control enter untapped.\nThe Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.\n{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control."
+  },
+  {
+    "card_name": "The Wandering Minstrel",
+    "flavor_word": "The Minstrel's Ballad",
+    "full_line": "The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.",
+    "oracle_text": "Lands you control enter untapped.\nThe Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.\n{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control."
   },
   {
     "card_name": "Sierra, Nuka's Biggest Fan",
@@ -6332,32 +6536,32 @@
   {
     "card_name": "G'raha Tia, Scion Reborn",
     "flavor_word": "Throw Wide the Gates",
-    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn.",
-    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn."
+    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
   },
   {
     "card_name": "G'raha Tia, Scion Reborn",
     "flavor_word": "Throw Wide the Gates",
-    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn.",
-    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn."
+    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
   },
   {
     "card_name": "G'raha Tia, Scion Reborn",
     "flavor_word": "Throw Wide the Gates",
-    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn.",
-    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn."
+    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
   },
   {
     "card_name": "G'raha Tia, Scion Reborn",
     "flavor_word": "Throw Wide the Gates",
-    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn.",
-    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn."
+    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
   },
   {
     "card_name": "G'raha Tia, Scion Reborn",
     "flavor_word": "Throw Wide the Gates",
-    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn.",
-    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X+1/+1 counters on it. Do this only once each turn."
+    "full_line": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "oracle_text": "Lifelink\nThrow Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
   },
   {
     "card_name": "Fifty Feet of Rope",
@@ -6774,6 +6978,18 @@
     "oracle_text": "Yawning Portal — You gain 1 life. (Leads to: Dungeon Level)\nDungeon Level — Scry 1. (Leads to: Goblin Bazaar, Twisted Caverns)\nGoblin Bazaar — Create a Treasure token. (Leads to: Lost Level)\nTwisted Caverns — Target creature can't attack until your next turn. (Leads to: Lost Level)\nLost Level — Scry 2. (Leads to: Runestone Caverns, Muiral's Graveyard)\nRunestone Caverns — Exile the top two cards of your library. You may play them. (Leads to: Deep Mines)\nMuiral's Graveyard — Create two 1/1 black Skeleton creature tokens. (Leads to: Deep Mines)\nDeep Mines — Scry 3. (Leads to: Mad Wizard's Lair)\nMad Wizard's Lair — Draw three cards and reveal them. You may cast one of them without paying its mana cost."
   },
   {
+    "card_name": "Edgar, King of Figaro",
+    "flavor_word": "Two-Headed Coin",
+    "full_line": "Two-Headed Coin — The first time you flip one or more coins each turn, those coins come up heads and you win those flips.",
+    "oracle_text": "When Edgar enters, draw a card for each artifact you control.\nTwo-Headed Coin — The first time you flip one or more coins each turn, those coins come up heads and you win those flips."
+  },
+  {
+    "card_name": "Edgar, King of Figaro",
+    "flavor_word": "Two-Headed Coin",
+    "full_line": "Two-Headed Coin — The first time you flip one or more coins each turn, those coins come up heads and you win those flips.",
+    "oracle_text": "When Edgar enters, draw a card for each artifact you control.\nTwo-Headed Coin — The first time you flip one or more coins each turn, those coins come up heads and you win those flips."
+  },
+  {
     "card_name": "Belisarius Cawl",
     "flavor_word": "Ultima Founding",
     "full_line": "Ultima Founding — {T}, Tap two untapped artifacts you control: Create a 2/2 white Astartes Warrior creature token with vigilance.",
@@ -6789,13 +7005,13 @@
     "card_name": "Ultimate Magic: Meteor",
     "flavor_word": "Ultimate Magic",
     "full_line": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.",
-    "oracle_text": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
+    "oracle_text": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
   },
   {
     "card_name": "Ultimate Magic: Meteor",
     "flavor_word": "Ultimate Magic",
     "full_line": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.",
-    "oracle_text": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
+    "oracle_text": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
   },
   {
     "card_name": "Adric, Mathematical Genius",
@@ -6978,6 +7194,24 @@
     "oracle_text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWater Always Wins — Whenever this creature attacks, put a flood counter on another target creature or land. If it's a creature, it becomes a copy of this creature. If it's a land, it becomes an Island in addition to its other types."
   },
   {
+    "card_name": "Omega, Heartless Evolution",
+    "flavor_word": "Wave Cannon",
+    "full_line": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "oracle_text": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)"
+  },
+  {
+    "card_name": "Omega, Heartless Evolution",
+    "flavor_word": "Wave Cannon",
+    "full_line": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "oracle_text": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)"
+  },
+  {
+    "card_name": "Omega, Heartless Evolution",
+    "flavor_word": "Wave Cannon",
+    "full_line": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "oracle_text": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)"
+  },
+  {
     "card_name": "Nothic",
     "flavor_word": "Weird Insight",
     "full_line": "Weird Insight — When this creature dies, roll a d20.",
@@ -7066,12 +7300,6 @@
     "flavor_word": "Wild Shape",
     "full_line": "Wild Shape — Specialize {3}. Activate only if you control six or more lands.",
     "oracle_text": "Wild Shape — Specialize {3}. Activate only if you control six or more lands.\nWhen Lukamina, Moon Druid enters, if you cast it, seek a land card with a basic land type."
-  },
-  {
-    "card_name": "MagicConsecrated Sphinx",
-    "flavor_word": "Win Prize Tickets",
-    "full_line": "Win Prize Tickets — Create a Treasure token.",
-    "oracle_text": "Flying\nWhenever an opponent draws a card, choose one that hasn't been chosen —\nMake Friends — Create a 1/1 colorless Gamer creature token.\nFind Cards — Investigate.\nWin Prize Tickets — Create a Treasure token.\nGo to Sleep — Exile this creature, then return it to the battlefield under its owner's control."
   },
   {
     "card_name": "Bane's Invoker",

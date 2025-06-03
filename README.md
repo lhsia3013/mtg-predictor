@@ -131,6 +131,16 @@ This pipeline transforms Scryfall card data and the official Magic Comprehensive
 
 ---
 
+### ▶️ Running the Full Mechanic Extraction Pipeline
+
+To regenerate all structured rule data and the final `ml_ready_mechanics.json`, run:
+
+```bash
+cd scripts
+./run_full_mechanic_pipeline.sh
+
+---
+
 ## 🔮 Next Steps
 
 - 🧱 Refactor and re-run:

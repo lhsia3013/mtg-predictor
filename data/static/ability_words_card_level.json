@@ -996,6 +996,12 @@
     "oracle_text": "Landfall — Whenever a land you control enters, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)"
   },
   {
+    "card_name": "Black Chocobo",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn.",
+    "oracle_text": "When this permanent transforms into Black Chocobo, search your library for a land card, put it onto the battlefield tapped, then shuffle.\nLandfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn."
+  },
+  {
     "card_name": "Galvanic Blast",
     "ability_word": "Metalcraft",
     "full_line": "Metalcraft — Galvanic Blast deals 4 damage instead if you control three or more artifacts.",
@@ -1362,6 +1368,12 @@
     "oracle_text": "Alliance — Whenever another creature you control enters, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, this creature deals X damage to any target."
   },
   {
+    "card_name": "Sabotender",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+    "oracle_text": "Reach\nLandfall — Whenever a land you control enters, this creature deals 1 damage to each opponent."
+  },
+  {
     "card_name": "Winter, Misanthropic Guide",
     "ability_word": "Delirium",
     "full_line": "Delirium — As long as there are four or more card types among cards in your graveyard, each opponent's maximum hand size is equal to seven minus the number of those card types.",
@@ -1528,6 +1540,12 @@
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. If that land is a Forest, put two +1/+1 counters on this creature instead.",
     "oracle_text": "Trample\nLandfall — Whenever a land you control enters, put a +1/+1 counter on this creature. If that land is a Forest, put two +1/+1 counters on this creature instead."
+  },
+  {
+    "card_name": "Chocobo Racetrack",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\"",
+    "oracle_text": "Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\""
   },
   {
     "card_name": "Khalni Heart Expedition",
@@ -1852,6 +1870,12 @@
     "ability_word": "Heroic",
     "full_line": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature and prevent all damage that would be dealt to it this turn.",
     "oracle_text": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature and prevent all damage that would be dealt to it this turn."
+  },
+  {
+    "card_name": "Ride the Shoopuf",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.",
+    "oracle_text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.\n{5}{G}{G}: This enchantment becomes a 7/7 Beast creature in addition to its other types."
   },
   {
     "card_name": "Lotus Cobra",
@@ -2554,6 +2578,12 @@
     "ability_word": "Metalcraft",
     "full_line": "Metalcraft — If you control three or more artifacts, exile that creature.",
     "oracle_text": "Tap target creature.\nMetalcraft — If you control three or more artifacts, exile that creature."
+  },
+  {
+    "card_name": "Fatal Push",
+    "ability_word": "Revolt",
+    "full_line": "Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
+    "oracle_text": "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."
   },
   {
     "card_name": "Ghost-Lit Raider",
@@ -3268,6 +3298,12 @@
     "ability_word": "Metalcraft",
     "full_line": "Metalcraft — If you control three or more artifacts, exile that creature.",
     "oracle_text": "Tap target creature.\nMetalcraft — If you control three or more artifacts, exile that creature."
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
   },
   {
     "card_name": "Nishoba Brawler",
@@ -8514,6 +8550,12 @@
     "oracle_text": "Double strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand."
   },
   {
+    "card_name": "Inalla, Archmage Ritualist",
+    "ability_word": "Eminence",
+    "full_line": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.",
+    "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life."
+  },
+  {
     "card_name": "Tempt with Discovery",
     "ability_word": "Tempting Offer",
     "full_line": "Tempting offer — Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. For each opponent who searches a library this way, search your library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles.",
@@ -10992,6 +11034,12 @@
     "oracle_text": "Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control."
   },
   {
+    "card_name": "Rydia, Summoner of Mist",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
+  },
+  {
     "card_name": "Tireless Provisioner",
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
@@ -13198,6 +13246,12 @@
     "ability_word": "Threshold",
     "full_line": "Threshold — If seven or more cards are in your graveyard, instead search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle.",
     "oracle_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nThreshold — If seven or more cards are in your graveyard, instead search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle."
+  },
+  {
+    "card_name": "Scion of Draco",
+    "ability_word": "Domain",
+    "full_line": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.",
+    "oracle_text": "Domain — This spell costs {2} less to cast for each basic land type among lands you control.\nFlying\nEach creature you control has vigilance if it's white, hexproof if it's blue, lifelink if it's black, first strike if it's red, and trample if it's green."
   },
   {
     "card_name": "Galadriel, Elven-Queen",
@@ -17550,6 +17604,12 @@
     "oracle_text": "Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control."
   },
   {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
+  },
+  {
     "card_name": "Serpentine",
     "ability_word": "Landfall",
     "full_line": "Landfall — Whenever a land you control enters,",
@@ -17842,6 +17902,12 @@
     "ability_word": "Addendum",
     "full_line": "Addendum — If you cast this spell during your main phase, instead scry 3, then draw three cards.",
     "oracle_text": "Draw three cards.\nAddendum — If you cast this spell during your main phase, instead scry 3, then draw three cards."
+  },
+  {
+    "card_name": "Rydia, Summoner of Mist",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.",
+    "oracle_text": "Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.\nSummon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery."
   },
   {
     "card_name": "Ripjaw Raptor",
@@ -18286,6 +18352,12 @@
     "ability_word": "Heroic",
     "full_line": "Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature.",
     "oracle_text": "Aura spells you cast cost {1} less to cast.\nHeroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature."
+  },
+  {
+    "card_name": "Ambrosia Whiteheart",
+    "ability_word": "Landfall",
+    "full_line": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",
+    "oracle_text": "Flash\nWhen Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.\nLandfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
   },
   {
     "card_name": "Selvala, Explorer Returned",
