@@ -23,5 +23,6 @@ Introduces modern NLP methods with Transformers. Includes tokenization, classifi
 
 ## Targeted to Multi-Label
 
-### [?] Find Sebastian Raschka – Multi-Label Classification
-Find the guid that covers how to approach multi-label problems in practice and explains label encoding, one-vs-rest, and evaluation metrics.
+### Multi-label Classification: A Guided Tour - Nick Ryan (https://nickcdryan.com/2017/01/23/multi-label-classification-a-guided-tour/)
+Guide that covers how to approach multi-label classification in practice and explains label encoding, one-vs-rest, and evaluation metrics.
+
