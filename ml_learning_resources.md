@@ -10,10 +10,10 @@ Youtube video covering all levels of the chatgpt LLM with digestable walkthrough
 ### [✅] LLM Visualizations - bbycroft (https://bbycroft.net/llm)
 Visualization and walkthrough of a production grade LLM
 
-### [*] Dive Into Deep Learning (https://d2l.ai/)
+### [✅] Dive Into Deep Learning (https://d2l.ai/)
 Hands-on textbook using PyTorch or MXNet. Covers the full ML workflow from scratch.
 
-### [ ] Machine Learning Yearning – Andrew Ng (https://www.deeplearning.ai/machine-learning-yearning/)
+### [*] Machine Learning Yearning – Andrew Ng (https://www.deeplearning.ai/machine-learning-yearning/)
 Focuses on diagnosing model performance and making smart iteration decisions.
 
 ### [ ] Hugging Face NLP Course (https://huggingface.co/learn/nlp-course/)
